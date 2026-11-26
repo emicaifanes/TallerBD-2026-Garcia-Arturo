@@ -8,16 +8,26 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.9/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-yEPZ7jP9S0QKiUQ0m3jjsO4ProIW7wvR9gXkI7JOGa2XVsw53Yke2bsdkBbjmmiX" crossorigin="anonymous">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.9/dist/js/bootstrap.bundle.min.js" integrity="sha384-WyOxWvTyr1QaMPfiPJSv76iReVthorl5uWlFtZPyK0IEB0hGzo9y5Bp9mYanr8Bu" crossorigin="anonymous"></script>
 </head>
-<body>
+<body class="bg-light">
 
     <!-- Login -->
     <main class="container my-4">
-        <form action="/enviar" method="post">
-            <label for="">Usuario</label>
-            <input type="text">
-            <label for="">Contraseña</label>
-            <input type="text">
-        </form>
+        <h1>Sistema de control de prestamos TEC</h1>
+        <div class="card text-center">
+            <div class="card-header">
+                Inicio de Sesion
+            </div>
+            <div class="card-body">
+                <div class="pb-3">
+                    <h5 class="card-title">Usuario</h5>
+                    <input type="text" name="usuario">
+                    <h5 class="card-title">Contraseña</h5>
+                    <input type="text" name="contrasena">
+                </div>
+                <a href="#" class="btn btn-primary">Enviar</a>
+            </div>
+
+        </div>
     </main>
     
 </body>
